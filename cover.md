@@ -1,6 +1,6 @@
 ### Description
 
-Employment Dataset application provides an good starter to build a 2 tier microservice application and deploy it on any platforms like Kubernetes and OpenShift. The application consists of an **Dataset** , **React based Frontend** and **Java using Spring** backend.
+US Employment rates application provides an good starter to build a 2 tier microservice application and deploy it on any platforms like Kubernetes and OpenShift. The application consists of an **Dataset** , **React based Frontend** and **Java using Spring** backend.
 
 ### Architecture
 
