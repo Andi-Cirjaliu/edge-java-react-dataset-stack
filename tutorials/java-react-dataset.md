@@ -40,7 +40,7 @@ In this example , we use `Skaffold` which simplifies local devlopment. You can d
 Navigate to the example:
 
 ```execute
-cd /home/student/projects/edge-java-react-s3-dataset-deploy
+cd /home/student/projects/edge-java-react-dataset-deploy
 ```
 
 ```execute
