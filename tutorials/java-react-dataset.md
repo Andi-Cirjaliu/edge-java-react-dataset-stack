@@ -1,12 +1,12 @@
 ```
 ---
 title: Employment Dataset Application (Java/Dataset) Stack Tutorial
-description: The Stack comprises of a Java Spring application deployed as Microservice
+description: The Stack comprises of a Java Spring application deployed as microservice
 ---
 
 ### Introduction
 
-Employment application is a Java Spring application which is deployed as a microservice. The frontend is made using React and included in the Java application.
+Employment application is a Java Spring application which is deployed as a microservice. The frontend is made using React and is included in the Java application.
 The example also uses Skaffold which handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most: writing code.
 
 ### Access the application
@@ -21,7 +21,7 @@ URL :  http://##DNS.ip##:30091
 
 It follows a simple modular and MVC pattern. There are 3 folders that are of our interest:
 - k8s :  This contains all the deployment and service yaml for the application. This defines the deployment and exposure of our application.
-- backend: This contains all the backend code that is building using Java Spring. The frontend is included in the backend.
+- backend: This contains all the backend code that is building using Java Spring. The frontend build in React is included in the backend.
 
 
 ### Deploy changes to Kubernetes in Dev Mode

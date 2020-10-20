@@ -1,44 +1,47 @@
 ### Description
 
-Contacts application is based on MEAN stack and provides an good starter to build a 3 tier microservice application and deploy them on any platforms like Kubernetes and OpenShift. The application consists of an **Database** , **React based Frontend** and **Express using NodeJS** backend.
+Employment Dataset application provides an good starter to build a 2 tier microservice application and deploy it on any platforms like Kubernetes and OpenShift. The application consists of an **Dataset** , **React based Frontend** and **Java using Spring** backend.
 
 ### Architecture
 
 ![architecture](_images/arch.png)
 
 
-This stack consists of PostgreSQL, Express, React and Node.js. Combining these technologies, one can build a full-stack web application with CRUD operations. 
+This stack consists of a Java backend and a React frontend that are displaying data from a dataset. The frontend build using React is included in the Java backend. 
 
 **Stack Components:**
 
-1. **PostgreSQL DB ([Crunchy Postgres Operator](https://operatorhub.io/operator/postgresql))**
+1. **Java (Back-End Framework)**
 
-   PostgreSQL is a powerful, open source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads.  
+   Java is the #1 programming language and development platform. It reduces costs, shortens development timeframes, drives innovation, and improves application services.
 
-   **Why use PostgreSQL?**  
+   **Why use Java?**
 
-   - Free and open source.
-   - Available in multiple languages.
-   - Highly extensible.
-   - Highly scalable.
-   - Protects data integrity.
-   - Builds fault-tolerant environments.
-   - Robust access-control system
-
-2. **Express (Back-End Framework)**
-
-   It is a web application framework for Node.js. Being a free and open software, it is used for building web applications and specially APIs. Express provides a thin layer of fundamental web application features, without obscuring Node.js features that you already know.
-
-   **Why use Express?**
-
-   - Provides a robust set of features for both web and mobile applications
-   - Makes back-end code easier and simpler to write.
-   - Supports many middleware.
-   - Minimal and Flexible web application framework.
+   - Java is an easy to learn Object-Oriented Programming Language
+   - Provides a robust set of features for desktop, web and mobile applications
+   - Powerful development tools e.g., Eclipse, Netbeans
+   - Great collection of Open Source libraries
+   - Wonderful Community Support
+   - Java is FREE
+   - Excellent documentation support - Javadocs
+   - Java is Platform Independent
    - Creating efficient and robust API is quick and easy.
-   - Allows you to define an error handling middleware.
 
-3. **React (Front-End Framework)**
+2. **Spring (Back-End Framework)**
+
+   The Spring Framework is an application framework and inversion of control container for the Java platform. The framework's core features can be used by any Java application, but there are extensions for building web applications on top of the Java EE (Enterprise Edition) platform.
+
+   **Why use Spring?**
+
+   - Spring’s flexible libraries are trusted by developers all over the world. Spring delivers delightful experiences to millions of end-users every day—whether that’s streaming TV, connected cars, online shopping, or countless other innovative solutions. Spring also has contributions from all the big names in tech, including Alibaba, Amazon, Google, Microsoft, and more.
+   - Spring makes programming Java quicker, easier, and safer for everybody.
+   - Spring’s flexible and comprehensive set of extensions and third-party libraries let developers build almost any application imaginable.
+   - Spring Boot transforms how you approach Java programming tasks, radically streamlining your experience. 
+   - Spring cares about performance. With Spring, you’ll notice fast startup, fast shutdown, and optimized execution, by default.
+   - Spring has a proven track record of dealing with security issues quickly and responsibly. The Spring committers work with security professionals to patch and test any reported vulnerabilities. Third-party dependencies are also monitored closely
+   - The Spring community is enormous, global, diverse, and spans folks of all ages and capabilities, from complete beginners to seasoned pros.
+
+2. **React (Front-End Framework)**
 
    React is basically a JavaScript library for building user interfaces. It is easy, efficient and painless way to create Interactive UIs. It is maintained by Facebook and a community of individual developers and companies. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes and for this reason only, it is used for developing single-page application or mobile applications.
 
@@ -51,18 +54,5 @@ This stack consists of PostgreSQL, Express, React and Node.js. Combining these t
    - Provide the feature of Virtual DOM.
    - SEO friendly!
 
-4. **Node.js (JavaScript runtime environment)**
-
-   Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine for developing server-side and networking applications. Being an asynchronous event-driven JavaScript runtime, it is used to build fast and scalable network applications. Node.js is free and open source server environment that runs on many platforms.
-
-   **Why Node.js?**
-
-   - Provides event-driven and asynchronous features which makes it lightweight and efficient.
-   - No buffering and thus, is very fast.
-   - Highly Scalable.
-   - Highly extensible.
-   - Provides advantage of caching.
-   - Handles thousands of concurrent connections with a single server.
-   - Provides vast number of libraries.
 
 *Code sample provided and maintained by EDGE team.*

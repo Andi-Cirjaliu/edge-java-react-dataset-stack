@@ -1,5 +1,5 @@
 {
-  "name": "Java React Dataset",
+  "name": "Employment Dataset",
   "description": "Java sample application using a dataset.",
   "logo": "_images/stack.png",
   "has_supporting_content": true,
@@ -14,15 +14,15 @@
   "cover": "cover.md",
   "commands": [
     {
-      "description": "Clone the repository",
+      "description": "Clone the application repository",
       "exec": "cd /home/student/projects && git clone https://github.com/Andi-Cirjaliu/edge-java-react-dataset-deploy.git"
     },
     {
-      "description": "Change to the current directory where the repository is cloned",
+      "description": "Change to the directory where the repository is cloned",
       "exec": "cd /home/student/projects/edge-java-react-dataset-deploy"
     },
     {
-      "description": "Install the application using skaffold",
+      "description": "Install the application using skaffold tool",
       "exec": "skaffold config set default-repo localhost:5000 && skaffold run"
     }
   ],
@@ -36,11 +36,10 @@
   "buckets": [],
   "meta": {
     "Install time": [
-      "5 minutes"
+      "10 minutes"
     ],
     "Language": [
-      "Java",
-      "S3"
+      "Java"
     ],
     "categories": [
       "Backend",

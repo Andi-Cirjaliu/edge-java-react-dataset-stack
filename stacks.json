@@ -1,5 +1,5 @@
 {
-  "title": "Java React Dataset",
+  "title": "Employment Dataset",
   "description": "Java sample application using a dataset.",
   "logo": "_images/stack.png",
   "enabled": false,
@@ -17,7 +17,7 @@
   ],
   "has_dataset": true,
   "has_api": false,
-  "git_url": "",
+  "git_url": "https://github.com/Andi-Cirjaliu/edge-java-react-dataset-stack",
   "git_commit": "",
   "installTime": "5 minutes",
   "isStacksSaved": true
