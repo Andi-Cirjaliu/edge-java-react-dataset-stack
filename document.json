@@ -22,6 +22,10 @@
       "exec": "cd /home/student/projects/edge-java-react-dataset-deploy"
     },
     {
+      "description": "Copy the dataset",
+      "exec": "cp -R /home/student/projects/employment_dataset /home/student/projects/edge-java-react-dataset-deploy/backend"
+    },
+    {
       "description": "Install the application using skaffold tool",
       "exec": "skaffold config set default-repo localhost:5000 && skaffold run"
     }
