@@ -3,7 +3,7 @@
   "description": "Java sample application using a dataset.",
   "logo": "_images/stack.png",
   "has_supporting_content": true,
-  "stack_id": "employment-app-stack",
+  "stack_id": "us-emp-stack",
   "type": "stack",
   "categories": [
     "Backend",
