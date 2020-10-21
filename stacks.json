@@ -8,7 +8,7 @@
     "Dataset"
   ],
   "document": "data-logging-stack",
-  "stack_id": "employment-app-stack",
+  "stack_id": "us-emp-stack",
   "type": "stack",
   "categories": [
     "Backend",
