@@ -1,6 +1,6 @@
 ### Description
 
-US Employment rates application provides an good starter to build a 2 tier microservice application and deploy it on any platforms like Kubernetes and OpenShift. It shows the US Employment and Unemployment rates since 1940 from USA Bureau of Labor Statistics. The application consists of an **Dataset** , **React based Frontend** and **Java using Spring** backend.
+US Employment rates application provides an good starter to build a 2 tier microservice application and deploy it on any platforms like Kubernetes and OpenShift. It shows the US Employment and Unemployment rates since 1940 from USA Bureau of Labor Statistics. The application consists of a **Dataset** , **React** based Frontend and **Java using Spring** backend.
 
 Before to install this application you need to install the Employment dataset.
 
