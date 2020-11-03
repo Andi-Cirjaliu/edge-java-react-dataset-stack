@@ -18,16 +18,12 @@
       "exec": "cd /home/student/projects && git clone https://github.com/Andi-Cirjaliu/edge-java-react-dataset-deploy.git"
     },
     {
-      "description": "Change to the directory where the repository is cloned",
-      "exec": "cd /home/student/projects/edge-java-react-dataset-deploy"
-    },
-    {
       "description": "Copy the dataset",
-      "exec": "cp -R /home/student/projects/employment_dataset /home/student/projects/edge-java-react-dataset-deploy/backend"
+      "exec": "cp -R employment_dataset edge-java-react-dataset-deploy/backend"
     },
     {
-      "description": "Install the application using skaffold tool",
-      "exec": "skaffold config set default-repo localhost:5000 && skaffold run"
+      "description": "Install and start the application using skaffold tool",
+      "exec": "cd /home/student/projects/edge-java-react-dataset-deploy && skaffold config set default-repo localhost:5000 && skaffold run"
     }
   ],
   "display": [
